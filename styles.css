@@ -204,10 +204,11 @@ main {
     margin: 0 0.5rem;
 }
 
-.product-box img ,.project-images-udemy img, .project-images-chc img, .project-images-extern img, .project-images-forage img{
+.product-images img ,.project-images-udemy img, .project-images-chc img, .project-images-extern img, .project-images-forage img{
     width: 100%;
     height: auto;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     margin: 0 auto 1rem;
 }
 
