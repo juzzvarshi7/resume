@@ -212,6 +212,22 @@ main {
     margin: 0 auto 1rem;
 }
 
+.project-images-extern img {
+    width: 60%;
+}
+
+.project-images-forage img {
+    width: 70%;
+}
+
+.project-images-chc img {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto 1rem;
+}
+
 .product-details {
     display: none;
     text-align: center;
