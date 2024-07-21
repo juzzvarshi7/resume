@@ -120,7 +120,7 @@ footer p {
     text-decoration: underline;
 }
 
-.project-images {
+.project-img ,.project-images-chc, .project-images-forage, .project-images-extern, .project-images-udemy{
     display: flex;
     flex-wrap: wrap; /* Allow images to wrap */
     gap: 10px;
@@ -129,12 +129,12 @@ footer p {
 }
 
 /* Adjust individual image styles */
-.project-images img {
+.project-img img, .project-images-chc, .project-images-forage, .project-images-extern, .project-images-udemy {
     border-radius: 8px;
 }
 
 /* Adjust dimensions for project42.png */
-.project-images img:nth-child(2) {
+.project-imag img:nth-child(2) {
     max-width: 200px; /* Set a specific width */
     max-height: 400px; /* Set a specific height */
 }
