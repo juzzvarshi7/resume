@@ -204,7 +204,7 @@ main {
     margin: 0 0.5rem;
 }
 
-.product-box img {
+.product-box img ,.project-images-udemy img, .project-images-chc img, .project-images-extern img, .project-images-forage img{
     width: 100%;
     height: auto;
     display: block;
@@ -215,26 +215,6 @@ main {
     display: none;
     text-align: center;
 }
-
-.project-images, .project-images-udemy, .project-images-chc, .project-images-extern, .project-images-forage {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 10px;
-}
-
-.project-images img, .project-images-udemy img, .project-images-chc img, .project-images-extern img, .project-images-forage img {
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-    flex: 1 1 calc(33.333% - 20px); /* Adjust the percentage based on how many images you want per row */
-    display: block;
-    max-width: 100%;
-    height: auto;
-    object-fit: contain;
-    margin: 0 auto;
-}
-
 
 footer {
     display: flex;
