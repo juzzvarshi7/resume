@@ -2,31 +2,31 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #E0FFFF; /* Light celeste color */
-    color: #333;
+    background-color: #121212; /* Dark background */
+    color: #E0E0E0; /* Light text color */
 }
 
 header {
-    background-color: #20B2AA; /* Light Sea Green */
-    color: #fff;
-    padding: 10px 0; /* Increased padding for better spacing */
+    background-color: #2A2A2A; /* Dark gray */
+    color: #D1C4E9; /* Soft purple for contrast */
+    padding: 10px 0;
     text-align: center;
 }
 
 header img {
     border-radius: 50%;
-    width: 100px; /* Increased size */
-    height: 100px; /* Increased size */
+    width: 100px;
+    height: 100px;
 }
 
 header h1 {
-    margin: 5px 0; /* Reduced margin */
-    font-size: 1.8em; /* Increased size */
+    margin: 5px 0;
+    font-size: 1.8em;
 }
 
 header p {
-    font-size: 1em; /* Reduced size */
-    margin: 5px 0; /* Optional: adjust the margin if needed */
+    font-size: 1em;
+    margin: 5px 0;
 }
 
 nav ul {
@@ -35,23 +35,24 @@ nav ul {
     display: flex;
     justify-content: center;
     margin: 0;
-    background-color: #66CDAA; /* Medium Aquamarine */
+    background-color: #1A1A1A; /* Darker navigation bar */
 }
 
 nav ul li {
-    margin: 0 10px; /* Original margin */
+    margin: 0 10px;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #fff;
-    font-size: 1em; /* Original size */
-    padding: 10px 15px; /* Padding for clickable area */
-    display: block; /* Ensures padding is clickable */
+    color: #80CBC4; /* Cyan for links */
+    font-size: 1em;
+    padding: 10px 15px;
+    display: block;
 }
 
 nav ul li a:hover {
     text-decoration: underline;
+    color: #BB86FC; /* Purple on hover */
 }
 
 .container {
@@ -60,21 +61,21 @@ nav ul li a:hover {
 }
 
 section {
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: #1F1F1F; /* Dark section background */
+    border: 1px solid #333; /* Darker border */
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 h2 {
-    color: #20B2AA; /* Light Sea Green */
+    color: #BB86FC; /* Purple color for section headings */
     margin-bottom: 10px;
 }
 
 h3 {
-    color: #333;
+    color: #E0E0E0; /* Light gray text */
 }
 
 ul {
@@ -83,22 +84,19 @@ ul {
 }
 
 footer {
-    background-color: #008080; /* Teal color */
-    color: #fff;
+    background-color: #2C2C2C; /* Dark footer */
+    color: #BB86FC; /* Purple footer text */
     text-align: center;
-    padding: 0.1px 5; /* Reduced padding for a smaller footer */
+    padding: 10px 0;
     position: fixed;
-    vertical-align: top;
     width: 100%;
-    height: 30px;
     bottom: 0;
-    line-height: 1.5em; /* Ensure text is legible */
+    line-height: 1.5em;
 }
 
 footer p {
     margin: 0;
-    font-size: em; /* Slightly larger font size for visibility */
-    line-height: 1.2em; /* Ensure text is legible */
+    font-size: 1em;
 }
 
 .project img {
@@ -112,35 +110,33 @@ footer p {
 }
 
 .project a {
-    color: #20B2AA; /* Light Sea Green */
+    color: #80CBC4; /* Cyan links */
     text-decoration: none;
 }
 
 .project a:hover {
     text-decoration: underline;
+    color: #BB86FC; /* Purple on hover */
 }
 
 .project-images {
     display: flex;
-    flex-wrap: wrap; /* Allow images to wrap */
+    flex-wrap: wrap;
     gap: 10px;
-    justify-content: center; /* Center align images horizontally */
-    align-items: flex-start; /* Align images at the top vertically */
+    justify-content: center;
+    align-items: flex-start;
 }
 
-/* Adjust individual image styles */
 .project-images img {
     border-radius: 8px;
 }
 
-/* Adjust dimensions for project42.png */
 .project-images img:nth-child(2) {
-    max-width: 200px; /* Set a specific width */
-    max-height: 400px; /* Set a specific height */
+    max-width: 200px;
+    max-height: 400px;
 }
 
-/* Adjust dimensions for project43.png, project44.png, and project45.png */
 .project-images img:nth-child(n + 3) {
-    max-width: 200px; /* Set the same width as project42 */
-    max-height: 400px; /* Set the same height as project42 */
+    max-width: 200px;
+    max-height: 400px;
 }
